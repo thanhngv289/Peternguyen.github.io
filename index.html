@@ -1,36 +1,277 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Peter Nguyen</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peter Nguyen | Academic Website</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 50px;
-      line-height: 1.6;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+      background-color: #ffffff;
+      color: #222;
     }
-    h1 {
-      color: #2c3e50;
+
+    header {
+      background: #0b1f3a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
     }
-    a {
-      color: #2980b9;
+
+    header h1 {
+      margin: 0;
+      font-size: 2.3em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      color: #d6dbe3;
+    }
+
+    nav {
+      background: #102a4d;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: white;
       text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+      font-size: 0.95em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #0b1f3a;
+      border-bottom: 2px solid #e6e6e6;
+      padding-bottom: 6px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .highlight-box {
+      background: #f5f7fb;
+      padding: 15px 20px;
+      border-left: 4px solid #0b1f3a;
+      margin-top: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      background: #0b1f3a;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.95em;
+    }
+
+    .btn:hover {
+      background: #163a66;
+    }
+
+    footer {
+      background: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .small-note {
+      font-size: 0.9em;
+      color: #555;
     }
   </style>
 </head>
+
 <body>
-  <h1>Peter Nguyen</h1>
-  <p>Welcome to my personal website.</p>
 
-  <h2>About Me</h2>
-  <p>I am a researcher in chemical engineering focusing on MXene-based materials for energy and sensing applications.</p>
+  <header>
+    <h1>Peter Nguyen</h1>
+    <p>Researcher | Chemical Engineering | Nanomaterials for Energy & Environmental Applications</p>
+  </header>
 
-  <h2>Links</h2>
-  <ul>
-    <li><a href="https://scholar.google.com">Google Scholar</a></li>
-    <li><a href="https://github.com">GitHub</a></li>
-  </ul>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <h2>Contact</h2>
-  <p>Email: yourname@email.com</p>
+  <div class="container">
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a researcher in Chemical Engineering with interests in the design and development of functional nanomaterials
+        for energy, environmental, and biomedical applications. My work focuses on advanced electrode materials and
+        interfacial engineering to improve electrochemical performance in systems such as sensing, capacitive deionization,
+        and energy storage.
+      </p>
+
+      <div class="highlight-box">
+        <b>Research Interests:</b>
+        <ul>
+          <li>MXene-based nanomaterials and surface functionalization</li>
+          <li>Conducting polymer composites (PANI/MXene)</li>
+          <li>Electrochemical sensing (biomedical & environmental detection)</li>
+          <li>Capacitive deionization (CDI) and desalination technologies</li>
+          <li>Energy storage materials (supercapacitors)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+      <h2>Research</h2>
+
+      <h3>1. MXene-Based Electrode Engineering</h3>
+      <p>
+        My research involves engineering MXene nanosheets through surface modification, interlayer design, and composite
+        formation with conductive polymers to improve ion transport, stability, and electrochemical activity.
+      </p>
+
+      <h3>2. Capacitive Deionization (CDI) for Water Treatment</h3>
+      <p>
+        I investigate advanced electrode materials for CDI systems, targeting efficient removal of ions such as Na<sup>+</sup>,
+        Cl<sup>-</sup>, and NH<sub>4</sub><sup>+</sup>. My approach includes functionalizing MXenes and integrating redox-active
+        components to enhance selectivity and capacity.
+      </p>
+
+      <h3>3. Electrochemical Biosensing for Cancer Detection</h3>
+      <p>
+        I am currently focusing on developing electrochemical sensors for biomedical applications, including detection of
+        breast cancer biomarkers. This work aims to integrate nanomaterial interfaces with high sensitivity and rapid response.
+      </p>
+
+      <div class="highlight-box">
+        <b>Keywords:</b> MXene, PANI, electrochemical sensors, CDI, supercapacitors, nanocomposites
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+      <h2>Publications</h2>
+
+      <p class="small-note">
+        (*Please replace the examples below with your real papers. I can help format your publication list in a professional style.*)
+      </p>
+
+      <h3>Journal Articles</h3>
+      <ul>
+        <li>
+          Nguyen, P.; Author, A.; Author, B. <i>Title of the paper goes here.</i>
+          Journal Name, Year, Volume, Pages.
+        </li>
+        <li>
+          Nguyen, P.; Author, C. <i>Another publication title goes here.</i>
+          Journal Name, Year, Volume, Pages.
+        </li>
+      </ul>
+
+      <h3>Conference Presentations</h3>
+      <ul>
+        <li>
+          Nguyen, P. <i>Presentation title.</i> ECS Meeting, Year.
+        </li>
+      </ul>
+
+      <p>
+        <a class="btn" href="https://scholar.google.com" target="_blank">Google Scholar</a>
+      </p>
+    </section>
+
+    <!-- TEACHING -->
+    <section id="teaching">
+      <h2>Teaching</h2>
+
+      <p>
+        I am interested in teaching courses in chemical engineering, nanomaterials, electrochemistry, and sustainable
+        environmental technologies.
+      </p>
+
+      <h3>Potential Courses</h3>
+      <ul>
+        <li>Electrochemical Engineering</li>
+        <li>Nanomaterials and Nanotechnology</li>
+        <li>Environmental Engineering and Water Treatment</li>
+        <li>Materials for Energy Storage</li>
+        <li>Advanced Characterization Techniques</li>
+      </ul>
+
+      <h3>Mentoring</h3>
+      <p>
+        I welcome collaboration and student supervision in interdisciplinary projects involving materials science,
+        electrochemistry, and environmental applications.
+      </p>
+    </section>
+
+    <!-- CV -->
+    <section id="cv">
+      <h2>Curriculum Vitae (CV)</h2>
+      <p>
+        You can download my CV here:
+      </p>
+
+      <p>
+        <a class="btn" href="cv.pdf" target="_blank">Download CV (PDF)</a>
+      </p>
+
+      <p class="small-note">
+        To make this work, upload your CV file to the same GitHub repository and name it exactly: <b>cv.pdf</b>
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>
+        <b>Email:</b> your.email@example.com <br />
+        <b>Affiliation:</b> Department of Chemical Engineering <br />
+        <b>Location:</b> Taiwan
+      </p>
+
+      <p>
+        <a class="btn" href="https://github.com" target="_blank">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2026 Peter Nguyen | Powered by GitHub Pages
+  </footer>
+
 </body>
 </html>
